@@ -1,22 +1,22 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { LYNCDesktop } from "./pages/LYNCDesktop";
+import { LYNCTablet } from "./pages/LYNCTablet";
+import { LYNCMobile } from "./pages/LYNCMobile";
 
-import "./App.css";
-import { Box } from "@chakra-ui/react";
-import Grid from "./assets/Grid.png";
 function App() {
-  return (
-    <>
-      <Box
-        bgImage={Grid}
-        backgroundPosition="center"
-        backgroundRepeat="no-repeat"
-        backgroundColor="#020617"
+  const [screenSize, setScreenSize] = useState(window.innerWidth);
 
-        width={"100%"}
-        height={"100vh"}
-      ></Box>
-    </>
+  useEffect(() => {
+    const handleResize = () => setScreenSize(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  return (
+    <div className="w-full h-full">
+      {screenSize < 431 && <LYNCMobile />}
+      {screenSize >= 431 && screenSize <= 912 && <LYNCTablet />}
+      {screenSize > 912 && <LYNCDesktop />}
+    </div>
   );
 }
-
 export default App;
