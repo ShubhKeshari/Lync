@@ -78,11 +78,11 @@ npm run dev
 ```
 ## Snapshot of the website
 
-![image](https://github.com/user-attachments/assets/9568ab71-4ea2-456a-8d63-aac4fb1914fb)
+![image](https://github.com/user-attachments/assets/775092dc-1264-480a-8d0f-ba8371ae633b)
 ![image](https://github.com/user-attachments/assets/7a186975-6f00-410e-938c-286b036ba99f)
 ![image](https://github.com/user-attachments/assets/e68ed690-2990-449c-9de9-9dd9742bbb84)
 ![image](https://github.com/user-attachments/assets/c5d1b407-1b22-4eaa-b359-cb216e07b0f3)
-![image](https://github.com/user-attachments/assets/04a7969b-2c32-4d2b-ac50-0e05ca77abe5)
+![image](https://github.com/user-attachments/assets/f1aa1ced-c437-4da9-a3b1-0011173abbf6)
 ![image](https://github.com/user-attachments/assets/b76dccd1-d82c-4e92-a808-5f67b98d3f46)
 ![image](https://github.com/user-attachments/assets/b4b66334-5f7c-4c61-96a3-64d09bdfb5d2)
 ![image](https://github.com/user-attachments/assets/9fa68849-528d-45b6-8105-46daef745ef4)
