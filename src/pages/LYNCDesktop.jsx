@@ -2,14 +2,7 @@ import "./LYNCDesktop.css";
 const LYNCDesktop = () => {
   return (
     <div className="lync-desktop">
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "start",
-        }}
-      >
+      <div className="desktop-container">
         <img className="lync-desktop-child" src="/group-3@2x.png" />
 
         <img className="background-icon1" src="/background1@2x.png" />
@@ -53,7 +46,7 @@ const LYNCDesktop = () => {
           </div>
         </div>
         {/* Header */}
-        <img className="bg-pattern" src="/public/bgPattern.png" />
+        <img className="bg-pattern" src="/bgPattern.png" />
         <div className="header">
           <div className="action-btn">
             <div className="chip-2">

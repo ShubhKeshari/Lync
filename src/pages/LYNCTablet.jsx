@@ -3,14 +3,7 @@ import "./LYNCTablet.css";
 const LYNCTablet = () => {
   return (
     <div className="lync-tablet">
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "start",
-        }}
-      >
+      <div className="tablet-container">
         <img className="background-icon12" src="/background3@2x.png" />
         <img className="overlay-icon9" src="/overlay8.svg" />
         <img className="overlay-icon10" src="/overlay8.svg" />
@@ -29,11 +22,11 @@ const LYNCTablet = () => {
           <img className="vertical-icon2" src="/vertical.svg" />
           <img className="horizontal-icon2" src="/horizontal@2x.png" />
         </div>
-        <img className="bg-pattern1" src="/public/bgPattern.png" />
+        <img className="bg-pattern1" src="/bgPattern.png" />
         <div className="navbar2">
           <img className="menu-icon1" src="/menu.svg" />
           <div className="left-part2">
-            <img className="group-parent2" src="logo.png" />
+            <img className="group-parent2" src="/logo.png" />
           </div>
           <div className="cta11">
             <div className="body-224">

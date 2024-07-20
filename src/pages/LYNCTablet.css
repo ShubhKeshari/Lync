@@ -1,3 +1,10 @@
+.tablet-container {
+  display: "flex";
+  flex-direction: "column";
+  align-items: "center";
+  justify-content: "start";
+}
+
 .background-icon12 {
   position: absolute;
   top: 8617px;
@@ -152,14 +159,13 @@
   top: 175px;
   left: -65px;
   max-width: 912px;
-  
 }
 .menu-icon1 {
   width: 32px;
   position: relative;
   height: 32px;
 }
-.menu-icon1:hover{
+.menu-icon1:hover {
   cursor: pointer;
 }
 
@@ -168,7 +174,7 @@
   position: relative;
   height: 23px;
 }
-.group-parent2{
+.group-parent2 {
   cursor: pointer;
 }
 .left-part2 {
@@ -211,7 +217,7 @@
   padding: 8px 14px;
   gap: 4px;
 }
-.cta11:hover{
+.cta11:hover {
   cursor: pointer;
 }
 .navbar2 {
@@ -254,7 +260,7 @@
   box-sizing: border-box;
   gap: 8px;
 }
-.chip-22:hover{
+.chip-22:hover {
   cursor: pointer;
 }
 .body-228 {
@@ -262,7 +268,7 @@
   position: relative;
   height: 20px;
 }
-.cta12:hover{
+.cta12:hover {
   cursor: pointer;
 }
 .cta12 {
@@ -993,7 +999,7 @@
 .card4,
 .card5 {
   backdrop-filter: blur(300px);
-  width:304px;
+  width: 304px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1009,7 +1015,7 @@
   );
   padding: 16px 20px;
   gap: 20px;
-  width:304px;
+  width: 304px;
 }
 .card4,
 .card5 {
@@ -1084,8 +1090,8 @@
   display: flex;
   align-items: center;
 }
-.review{
-  width:749px;
+.review {
+  width: 749px;
 }
 .from-our-blog-container3 {
   width: calc(100% - 165px);
@@ -1264,7 +1270,7 @@
   font-size: 14px;
 }
 
-.cta14:hover{
+.cta14:hover {
   cursor: pointer;
 }
 .our-believers-and-container4 {
@@ -1382,7 +1388,7 @@
 .image-78-icon2,
 .rectangle-parent21 {
   position: absolute;
-  width:226px;
+  width: 226px;
   right: 581px;
   bottom: 1232px;
   left: 105px;
