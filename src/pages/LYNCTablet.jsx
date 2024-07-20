@@ -3,7 +3,12 @@ import "./LYNCTablet.css";
 const LYNCTablet = () => {
   return (
     <div className="lync-tablet">
-      <div className="tablet-container">
+      <div style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "start",
+        }}>
         <img className="background-icon12" src="/background3@2x.png" />
         <img className="overlay-icon9" src="/overlay8.svg" />
         <img className="overlay-icon10" src="/overlay8.svg" />

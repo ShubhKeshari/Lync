@@ -2,7 +2,12 @@ import "./LYNCDesktop.css";
 const LYNCDesktop = () => {
   return (
     <div className="lync-desktop">
-      <div className="desktop-container">
+      <div style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "start",
+        }}>
         <img className="lync-desktop-child" src="/group-3@2x.png" />
 
         <img className="background-icon1" src="/background1@2x.png" />
